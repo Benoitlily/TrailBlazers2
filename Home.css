@@ -638,12 +638,15 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 406px;
+    min-height: 940px;
   }
 
   .u-section-4 .u-layout-wrap-1 {
-    width: 340px;
-    min-height: 344px;
+    margin-top: 41px;
+    min-height: 215px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-4 .u-text-1 {
@@ -651,6 +654,7 @@
   }
 
   .u-section-4 .u-text-2 {
+    font-size: 1.0625rem;
     width: auto;
     margin-top: 5px;
     margin-bottom: -14px;
@@ -664,14 +668,16 @@
     height: 321px;
     width: 340px;
     margin-top: 50px;
-    margin-left: -10px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-4 .u-image-1 {
     height: 340px;
     width: 340px;
     margin-top: -337px;
-    margin-left: -9px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }.u-section-5 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/view-modern-office.jpg");
@@ -1317,7 +1323,7 @@
 
 @media (max-width: 575px) {
   .u-section-6 {
-    min-height: 828px;
+    min-height: 740px;
   }
 
   .u-section-6 .u-shape-1 {
@@ -1338,8 +1344,9 @@
   .u-section-6 .u-slider-1 {
     width: 340px;
     min-height: 443px;
-    margin-top: -107px;
+    margin-top: -124px;
     margin-right: auto;
+    margin-bottom: 44px;
   }
 
   .u-section-6 .u-container-layout-1 {
@@ -1632,7 +1639,7 @@
 
 @media (max-width: 575px) {
   .u-section-7 {
-    min-height: 704px;
+    min-height: 728px;
   }
 
   .u-section-7 .u-shape-1 {
@@ -1643,12 +1650,15 @@
   .u-section-7 .u-image-1 {
     width: 340px;
     height: 235px;
-    margin-right: calc(((100% - 340px) / 2));
-    margin-left: calc(((100% - 340px) / 2) + -15px);
+    margin-top: -683px;
+    margin-right: auto;
+    margin-left: calc(((100% - 340px) / 2) + -14px);
   }
 
   .u-section-7 .u-slider-1 {
     width: 340px;
+    min-height: 485px;
+    margin-top: -13px;
   }
 }.u-section-8 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/modern-interior-design-office.jpg");
