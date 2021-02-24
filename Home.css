@@ -38,7 +38,7 @@
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 60px;
+    margin-top: 248px;
   }
 }
 
@@ -48,7 +48,8 @@
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-left: auto;
+    margin-top: 259px;
+    margin-left: 20px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -62,11 +63,13 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 464px;
+    min-height: 466px;
   }
 
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 346px;
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 94px;
+    margin-left: 12px;
+    margin-bottom: 26px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -87,13 +90,11 @@
   }
 
   .u-section-1 .u-layout-wrap-1 {
+    margin-top: 167px;
+    margin-bottom: 41px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
-  }
-
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 100px;
   }
 }.u-section-2 {
   background-image: none;
@@ -213,7 +214,7 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 770px;
+    min-height: 664px;
   }
 
   .u-section-2 .u-shape-1 {
@@ -231,16 +232,16 @@
   }
 
   .u-section-2 .u-group-1 {
-    min-height: 389px;
+    min-height: 297px;
     width: 425px;
     margin-top: -162px;
-    margin-bottom: 44px;
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 837px;
+    min-height: 668px;
   }
 
   .u-section-2 .u-shape-1 {
@@ -256,9 +257,10 @@
   }
 
   .u-section-2 .u-group-1 {
-    min-height: 456px;
+    min-height: 295px;
     width: 283px;
     margin-top: -29px;
+    margin-bottom: 36px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -411,15 +413,15 @@
   }
 
   .u-section-3 .u-sheet-1 {
-    min-height: 815px;
+    min-height: 580px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-bottom: 50px;
   }
 
   .u-section-3 .u-layout-cell-1 {
     min-height: 372px;
-  }
-
-  .u-section-3 .u-layout-cell-2 {
-    min-height: 134px;
   }
 
   .u-section-3 .u-text-1 {
@@ -644,10 +646,6 @@
     min-height: 344px;
   }
 
-  .u-section-4 .u-layout-cell-1 {
-    min-height: 641px;
-  }
-
   .u-section-4 .u-text-1 {
     font-size: 2.5rem;
   }
@@ -825,10 +823,12 @@
   }
 
   .u-section-5 .u-slider-1 {
-    min-height: 377px;
+    min-height: 443px;
     width: 388px;
     height: auto;
-    margin-top: -449px;
+    margin-top: -363px;
+    margin-bottom: 0;
+    margin-left: 15px;
   }
 
   .u-section-5 .u-container-layout-1 {
@@ -881,16 +881,16 @@
   .u-section-5 .u-image-1 {
     width: 463px;
     height: 364px;
-    margin-top: -456px;
+    margin-top: -544px;
     margin-right: 0;
   }
 
   .u-section-5 .u-slider-1 {
     min-height: 364px;
     width: 375px;
-    margin-top: -309px;
-    margin-bottom: 37px;
-    margin-left: -15px;
+    margin-top: -220px;
+    margin-bottom: 36px;
+    margin-left: 0;
   }
 
   .u-section-5 .u-container-layout-1 {
@@ -940,6 +940,7 @@
   .u-section-5 .u-slider-1 {
     margin-top: -38px;
     margin-bottom: 0;
+    margin-left: 14px;
   }
 
   .u-section-5 .u-container-layout-1 {
@@ -1206,7 +1207,7 @@
 
 @media (max-width: 991px) {
   .u-section-6 {
-    min-height: 793px;
+    min-height: 751px;
   }
 
   .u-section-6 .u-shape-1 {
@@ -1219,15 +1220,14 @@
   .u-section-6 .u-image-1 {
     width: 478px;
     height: 478px;
-    margin-top: -501px;
-    margin-left: calc(((100% - 720px) / 2) + -18px);
+    margin-top: -553px;
+    margin-left: calc(((100% - 720px) / 2) + 20px);
   }
 
   .u-section-6 .u-slider-1 {
     min-height: 363px;
-    margin-top: -206px;
+    margin-top: -98px;
     margin-right: calc(((100% - 720px) / 2));
-    margin-bottom: 60px;
   }
 
   .u-section-6 .u-container-layout-1 {
@@ -1277,14 +1277,13 @@
     width: 526px;
     height: 526px;
     margin-top: -558px;
-    margin-left: calc(((100% - 540px) / 2));
+    margin-left: auto;
   }
 
   .u-section-6 .u-slider-1 {
     width: 540px;
     margin-top: -67px;
     margin-right: calc(((100% - 540px) / 2));
-    margin-bottom: 0;
   }
 
   .u-section-6 .u-container-layout-1 {
@@ -1318,7 +1317,7 @@
 
 @media (max-width: 575px) {
   .u-section-6 {
-    min-height: 633px;
+    min-height: 828px;
   }
 
   .u-section-6 .u-shape-1 {
@@ -1338,9 +1337,9 @@
 
   .u-section-6 .u-slider-1 {
     width: 340px;
+    min-height: 443px;
     margin-top: -107px;
     margin-right: auto;
-    margin-left: calc(((100% - 340px) / 2) + -31px);
   }
 
   .u-section-6 .u-container-layout-1 {
@@ -1349,8 +1348,13 @@
   }
 
   .u-section-6 .u-text-1 {
-    font-size: 4.5rem;
     margin-right: 0;
+  }
+
+  .u-section-6 .u-text-2 {
+    width: auto;
+    margin-top: 21px;
+    margin-bottom: -1px;
   }
 
   .u-section-6 .u-container-layout-2 {
@@ -1359,8 +1363,22 @@
   }
 
   .u-section-6 .u-text-3 {
-    font-size: 4.5rem;
     margin-right: 0;
+  }
+
+  .u-section-6 .u-text-4 {
+    width: auto;
+  }
+
+  .u-section-6 .u-text-6 {
+    width: auto;
+    margin-top: 21px;
+    margin-bottom: -1px;
+  }
+
+  .u-section-6 .u-text-8 {
+    width: auto;
+    margin-top: 12px;
   }
 }.u-section-7 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/corner-open-office-space-with-modern-interior-design.jpg");
@@ -1528,6 +1546,10 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-7 {
+    min-height: 979px;
+  }
+
   .u-section-7 .u-shape-1 {
     width: calc(((100% - 720px) / 2) + 386px);
   }
@@ -1535,13 +1557,14 @@
   .u-section-7 .u-image-1 {
     width: 720px;
     height: 499px;
-    margin-top: -582px;
-    margin-right: auto;
+    margin-top: -581px;
+    margin-right: calc(((100% - 720px) / 2) + -25px);
   }
 
   .u-section-7 .u-slider-1 {
-    margin-top: -14px;
-    margin-left: 50px;
+    margin-top: -35px;
+    margin-bottom: 0;
+    margin-left: calc(((100% - 720px) / 2));
   }
 
   .u-section-7 .u-container-layout-1 {
@@ -1577,14 +1600,13 @@
   .u-section-7 .u-image-1 {
     width: 540px;
     height: 374px;
-    margin-top: -632px;
+    margin-right: calc(((100% - 540px) / 2));
   }
 
   .u-section-7 .u-slider-1 {
     width: 540px;
-    margin-top: -50px;
+    margin-top: 90px;
     margin-left: auto;
-    margin-bottom: 0;
   }
 
   .u-section-7 .u-container-layout-1 {
@@ -1622,13 +1644,11 @@
     width: 340px;
     height: 235px;
     margin-right: calc(((100% - 340px) / 2));
+    margin-left: calc(((100% - 340px) / 2) + -15px);
   }
 
   .u-section-7 .u-slider-1 {
     width: 340px;
-    margin-top: -25px;
-    margin-bottom: 18px;
-    margin-left: calc(((100% - 340px) / 2) + -22px);
   }
 }.u-section-8 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/modern-interior-design-office.jpg");
@@ -2116,10 +2136,6 @@
     padding-right: 10px;
   }
 
-  .u-section-9 .u-layout-cell-2 {
-    min-height: 229px;
-  }
-
   .u-section-9 .u-text-2 {
     width: auto;
     margin-top: 30px;
@@ -2137,10 +2153,6 @@
   .u-section-9 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  .u-section-9 .u-layout-cell-4 {
-    min-height: 168px;
   }
 
   .u-section-9 .u-text-5 {
@@ -2190,10 +2202,6 @@
     min-height: 357px;
   }
 
-  .u-section-9 .u-layout-cell-2 {
-    min-height: 100px;
-  }
-
   .u-section-9 .u-container-layout-2 {
     padding-left: 20px;
     padding-right: 20px;
@@ -2201,10 +2209,6 @@
 
   .u-section-9 .u-layout-cell-3 {
     min-height: 357px;
-  }
-
-  .u-section-9 .u-layout-cell-4 {
-    min-height: 100px;
   }
 
   .u-section-9 .u-container-layout-4 {
@@ -2565,10 +2569,6 @@
     margin-top: 27px;
   }
 
-  .u-section-10 .u-layout-cell-1 {
-    min-height: 143px;
-  }
-
   .u-section-10 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -2579,10 +2579,6 @@
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .u-section-10 .u-layout-cell-2 {
-    min-height: 133px;
   }
 
   .u-section-10 .u-container-layout-2 {
@@ -2625,10 +2621,6 @@
     padding-right: 10px;
   }
 
-  .u-section-10 .u-layout-cell-11 {
-    min-height: 153px;
-  }
-
   .u-section-10 .u-container-layout-11 {
     padding-left: 10px;
     padding-right: 10px;
@@ -2657,18 +2649,6 @@
 
   .u-section-10 .u-layout-wrap-1 {
     margin-top: 25px;
-  }
-
-  .u-section-10 .u-layout-cell-1 {
-    min-height: 100px;
-  }
-
-  .u-section-10 .u-layout-cell-2 {
-    min-height: 100px;
-  }
-
-  .u-section-10 .u-layout-cell-11 {
-    min-height: 100px;
   }
 
   .u-section-10 .u-text-12 {
