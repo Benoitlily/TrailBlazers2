@@ -2895,8 +2895,8 @@
 .u-section-12 .u-social-icons-1 {
   height: 29px;
   min-height: 16px;
-  width: 83px;
-  min-width: 57px;
+  width: 66px;
+  min-width: 40px;
   white-space: nowrap;
   margin: 20px auto;
 }
@@ -2912,5 +2912,18 @@
 @media (max-width: 767px) {
   .u-section-12 .u-sheet-1 {
     min-height: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-12 .u-sheet-1 {
+    min-height: 69px;
+  }
+
+  .u-section-12 .u-social-icons-1 {
+    height: 16px;
+    width: 40px;
+    margin-top: 27px;
+    margin-bottom: 27px;
   }
 }
