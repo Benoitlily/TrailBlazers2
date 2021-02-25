@@ -2889,7 +2889,7 @@
 }
 
 .u-section-12 .u-sheet-1 {
-  min-height: 68px;
+  min-height: 88px;
 }
 
 .u-section-12 .u-social-icons-1 {
@@ -2898,7 +2898,7 @@
   width: 66px;
   min-width: 40px;
   white-space: nowrap;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .u-section-12 .u-icon-1 {
@@ -2917,13 +2917,13 @@
 
 @media (max-width: 575px) {
   .u-section-12 .u-sheet-1 {
-    min-height: 69px;
+    min-height: 70px;
   }
 
   .u-section-12 .u-social-icons-1 {
-    height: 16px;
-    width: 40px;
-    margin-top: 27px;
-    margin-bottom: 27px;
+    height: 24px;
+    width: 56px;
+    margin-top: 23px;
+    margin-bottom: 23px;
   }
 }
